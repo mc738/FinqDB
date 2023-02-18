@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FinqDB", "FinqDB\FinqDB.fsproj", "{1F6C1071-C7C9-47D8-9A38-4022FCDFE7F1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FinqDB.App", "FinqDB.App\FinqDB.App.fsproj", "{5AB95DD5-9F59-4FEA-B836-3044932DED80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_external", "_external", "{6E917159-037E-434F-A4FD-2FD0D08E6120}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ToolBox", "..\ToolBox\ToolBox\ToolBox.fsproj", "{F9C15E01-11F1-4841-B9FC-096491E4D05B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6C1071-C7C9-47D8-9A38-4022FCDFE7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6C1071-C7C9-47D8-9A38-4022FCDFE7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6C1071-C7C9-47D8-9A38-4022FCDFE7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6C1071-C7C9-47D8-9A38-4022FCDFE7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB95DD5-9F59-4FEA-B836-3044932DED80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB95DD5-9F59-4FEA-B836-3044932DED80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB95DD5-9F59-4FEA-B836-3044932DED80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB95DD5-9F59-4FEA-B836-3044932DED80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C15E01-11F1-4841-B9FC-096491E4D05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C15E01-11F1-4841-B9FC-096491E4D05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C15E01-11F1-4841-B9FC-096491E4D05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C15E01-11F1-4841-B9FC-096491E4D05B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9C15E01-11F1-4841-B9FC-096491E4D05B} = {6E917159-037E-434F-A4FD-2FD0D08E6120}
+	EndGlobalSection
+EndGlobal

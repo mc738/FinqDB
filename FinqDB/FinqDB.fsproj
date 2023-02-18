@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Common\V1\Domain.fs" />
+        <Compile Include="Common\V1\Encryption.fs" />
+        <Compile Include="Common\V1\Compression.fs" />
+        <Compile Include="Common\Extensions.fs" />
+        <Compile Include="Store\V1\Persistence.fs" />
+        <Compile Include="Store\V1\Utils.fs" />
+        <Compile Include="Store\V1\Labels.fs" />
+        <Compile Include="Store\V1\Categories.fs" />
+        <Compile Include="Store\V1\Nodes.fs" />
+        <Compile Include="Store\V1\Edges.fs" />
+        <Compile Include="Store\V1\ExternalEdges.fs" />
+        <Compile Include="Store\V1\Files.fs" />
+        <Compile Include="Store\V1\Documents.fs" />
+        <Compile Include="Queries\V1\Parsing.fs" />
+        <Compile Include="Queries\V1\Impl.fs" />
+        <Compile Include="Context.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Freql.Sqlite" Version="0.8.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\ToolBox\ToolBox\ToolBox.fsproj" />
+    </ItemGroup>
+
+</Project>
