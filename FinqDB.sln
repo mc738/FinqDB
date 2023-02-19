@@ -8,6 +8,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_external", "_external", "{
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ToolBox", "..\ToolBox\ToolBox\ToolBox.fsproj", "{F9C15E01-11F1-4841-B9FC-096491E4D05B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{02A0EDAF-B8BC-4A7D-93C8-1BF41D2A63F1}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
